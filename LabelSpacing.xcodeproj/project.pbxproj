@@ -7,234 +7,220 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92224E311BFCBB81009A7CBE = {
-			isa = PBXBuildFile;
-			fileRef = 92224E301BFCBB81009A7CBE;
-		};
-		92224E341BFCBB81009A7CBE = {
-			isa = PBXBuildFile;
-			fileRef = 92224E331BFCBB81009A7CBE;
-		};
-		92224E371BFCBB81009A7CBE = {
-			isa = PBXBuildFile;
-			fileRef = 92224E361BFCBB81009A7CBE;
-		};
-		92224E3A1BFCBB81009A7CBE = {
-			isa = PBXBuildFile;
-			fileRef = 92224E381BFCBB81009A7CBE;
-		};
-		92224E3C1BFCBB81009A7CBE = {
-			isa = PBXBuildFile;
-			fileRef = 92224E3B1BFCBB81009A7CBE;
-		};
-		92224E3F1BFCBB81009A7CBE = {
-			isa = PBXBuildFile;
-			fileRef = 92224E3D1BFCBB81009A7CBE;
-		};
-		92224E481BFCBBFB009A7CBE = {
-			isa = PBXBuildFile;
-			fileRef = 92224E471BFCBBFB009A7CBE;
-		};
-		92224E4E1BFCBF85009A7CBE = {
-			isa = PBXBuildFile;
-			fileRef = 92224E4D1BFCBF85009A7CBE;
-		};
+		4ACF83B01BFCC81A0048947C /* AZLabelSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ACF83AF1BFCC81A0048947C /* AZLabelSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ACF83B41BFCC81A0048947C /* AZLabelSpacing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF83AD1BFCC81A0048947C /* AZLabelSpacing.framework */; };
+		4ACF83B51BFCC81A0048947C /* AZLabelSpacing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF83AD1BFCC81A0048947C /* AZLabelSpacing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4ACF83BA1BFCC8260048947C /* AZMethodSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 92224E4C1BFCBF85009A7CBE /* AZMethodSwizzle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4ACF83BB1BFCC8290048947C /* UILabel+AZCharacterSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 92224E461BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ACF83BC1BFCC8300048947C /* UILabel+AZCharacterSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */; };
+		4ACF83BD1BFCC8420048947C /* AZMethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */; };
+		92224E311BFCBB81009A7CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E301BFCBB81009A7CBE /* main.m */; };
+		92224E341BFCBB81009A7CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E331BFCBB81009A7CBE /* AppDelegate.m */; };
+		92224E371BFCBB81009A7CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E361BFCBB81009A7CBE /* ViewController.m */; };
+		92224E3A1BFCBB81009A7CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92224E381BFCBB81009A7CBE /* Main.storyboard */; };
+		92224E3C1BFCBB81009A7CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92224E3B1BFCBB81009A7CBE /* Assets.xcassets */; };
+		92224E3F1BFCBB81009A7CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92224E3D1BFCBB81009A7CBE /* LaunchScreen.storyboard */; };
+		92224E481BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */; };
+		92224E4E1BFCBF85009A7CBE /* AZMethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4ACF83B21BFCC81A0048947C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92224E241BFCBB81009A7CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACF83AC1BFCC81A0048947C;
+			remoteInfo = AZLabelSpacing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4ACF83B91BFCC81B0048947C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4ACF83B51BFCC81A0048947C /* AZLabelSpacing.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		92224E2C1BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.application;
-			includeInIndex = 0;
-			path = LabelSpacing.app;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		92224E301BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.objc;
-			path = main.m;
-			sourceTree = "<group>";
-		};
-		92224E321BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			path = AppDelegate.h;
-			sourceTree = "<group>";
-		};
-		92224E331BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.objc;
-			path = AppDelegate.m;
-			sourceTree = "<group>";
-		};
-		92224E351BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			path = ViewController.h;
-			sourceTree = "<group>";
-		};
-		92224E361BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.objc;
-			path = ViewController.m;
-			sourceTree = "<group>";
-		};
-		92224E391BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = file.storyboard;
-			name = Base;
-			path = Base.lproj/Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92224E3B1BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = folder.assetcatalog;
-			path = Assets.xcassets;
-			sourceTree = "<group>";
-		};
-		92224E3E1BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = file.storyboard;
-			name = Base;
-			path = Base.lproj/LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		92224E401BFCBB81009A7CBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		92224E461BFCBBFB009A7CBE = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = "UILabel+AZCharacterSpacing.h";
-			sourceTree = "<group>";
-		};
-		92224E471BFCBBFB009A7CBE = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = "UILabel+AZCharacterSpacing.m";
-			sourceTree = "<group>";
-		};
-		92224E4C1BFCBF85009A7CBE = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.h;
-			path = AZMethodSwizzle.h;
-			sourceTree = "<group>";
-		};
-		92224E4D1BFCBF85009A7CBE = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.c.objc;
-			path = AZMethodSwizzle.m;
-			sourceTree = "<group>";
-		};
+		4ACF83AD1BFCC81A0048947C /* AZLabelSpacing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZLabelSpacing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACF83AF1BFCC81A0048947C /* AZLabelSpacing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZLabelSpacing.h; sourceTree = "<group>"; };
+		4ACF83B11BFCC81A0048947C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92224E2C1BFCBB81009A7CBE /* LabelSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelSpacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92224E301BFCBB81009A7CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92224E321BFCBB81009A7CBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92224E331BFCBB81009A7CBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92224E351BFCBB81009A7CBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92224E361BFCBB81009A7CBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92224E391BFCBB81009A7CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92224E3B1BFCBB81009A7CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92224E3E1BFCBB81009A7CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92224E401BFCBB81009A7CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92224E461BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AZCharacterSpacing.h"; sourceTree = "<group>"; };
+		92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AZCharacterSpacing.m"; sourceTree = "<group>"; };
+		92224E4C1BFCBF85009A7CBE /* AZMethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZMethodSwizzle.h; sourceTree = "<group>"; };
+		92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZMethodSwizzle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		92224E291BFCBB81009A7CBE = {
+		4ACF83A91BFCC81A0048947C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92224E291BFCBB81009A7CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF83B41BFCC81A0048947C /* AZLabelSpacing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ACF83AE1BFCC81A0048947C /* AZLabelSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF83AF1BFCC81A0048947C /* AZLabelSpacing.h */,
+				4ACF83B11BFCC81A0048947C /* Info.plist */,
+			);
+			path = AZLabelSpacing;
+			sourceTree = "<group>";
+		};
 		92224E231BFCBB81009A7CBE = {
 			isa = PBXGroup;
 			children = (
-				92224E2E1BFCBB81009A7CBE,
-				92224E2D1BFCBB81009A7CBE,
+				92224E2E1BFCBB81009A7CBE /* LabelSpacing */,
+				4ACF83AE1BFCC81A0048947C /* AZLabelSpacing */,
+				92224E2D1BFCBB81009A7CBE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		92224E2D1BFCBB81009A7CBE = {
+		92224E2D1BFCBB81009A7CBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92224E2C1BFCBB81009A7CBE,
+				92224E2C1BFCBB81009A7CBE /* LabelSpacing.app */,
+				4ACF83AD1BFCC81A0048947C /* AZLabelSpacing.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92224E2E1BFCBB81009A7CBE = {
+		92224E2E1BFCBB81009A7CBE /* LabelSpacing */ = {
 			isa = PBXGroup;
 			children = (
-				92224E2F1BFCBB81009A7CBE,
-				92224E4F1BFCC106009A7CBE,
-				92224E4C1BFCBF85009A7CBE,
-				92224E4D1BFCBF85009A7CBE,
-				92224E381BFCBB81009A7CBE,
-				92224E461BFCBBFB009A7CBE,
-				92224E471BFCBBFB009A7CBE,
+				92224E2F1BFCBB81009A7CBE /* Supporting Files */,
+				92224E4F1BFCC106009A7CBE /* Unnecessary */,
+				92224E4C1BFCBF85009A7CBE /* AZMethodSwizzle.h */,
+				92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */,
+				92224E381BFCBB81009A7CBE /* Main.storyboard */,
+				92224E461BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.h */,
+				92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */,
 			);
 			path = LabelSpacing;
 			sourceTree = "<group>";
 		};
-		92224E2F1BFCBB81009A7CBE = {
+		92224E2F1BFCBB81009A7CBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				92224E301BFCBB81009A7CBE,
+				92224E301BFCBB81009A7CBE /* main.m */,
 			);
-			name = "Supporting Files";
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		92224E4F1BFCC106009A7CBE = {
+		92224E4F1BFCC106009A7CBE /* Unnecessary */ = {
 			isa = PBXGroup;
 			children = (
-				92224E321BFCBB81009A7CBE,
-				92224E331BFCBB81009A7CBE,
-				92224E3B1BFCBB81009A7CBE,
-				92224E401BFCBB81009A7CBE,
-				92224E3D1BFCBB81009A7CBE,
-				92224E351BFCBB81009A7CBE,
-				92224E361BFCBB81009A7CBE,
+				92224E321BFCBB81009A7CBE /* AppDelegate.h */,
+				92224E331BFCBB81009A7CBE /* AppDelegate.m */,
+				92224E3B1BFCBB81009A7CBE /* Assets.xcassets */,
+				92224E401BFCBB81009A7CBE /* Info.plist */,
+				92224E3D1BFCBB81009A7CBE /* LaunchScreen.storyboard */,
+				92224E351BFCBB81009A7CBE /* ViewController.h */,
+				92224E361BFCBB81009A7CBE /* ViewController.m */,
 			);
-			name = Unnecessary;
 			path = Unnecessary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4ACF83AA1BFCC81A0048947C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF83BB1BFCC8290048947C /* UILabel+AZCharacterSpacing.h in Headers */,
+				4ACF83B01BFCC81A0048947C /* AZLabelSpacing.h in Headers */,
+				4ACF83BA1BFCC8260048947C /* AZMethodSwizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		92224E2B1BFCBB81009A7CBE = {
+		4ACF83AC1BFCC81A0048947C /* AZLabelSpacing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92224E431BFCBB81009A7CBE;
+			buildConfigurationList = 4ACF83B81BFCC81B0048947C /* Build configuration list for PBXNativeTarget "AZLabelSpacing" */;
 			buildPhases = (
-				92224E281BFCBB81009A7CBE,
-				92224E291BFCBB81009A7CBE,
-				92224E2A1BFCBB81009A7CBE,
+				4ACF83A81BFCC81A0048947C /* Sources */,
+				4ACF83A91BFCC81A0048947C /* Frameworks */,
+				4ACF83AA1BFCC81A0048947C /* Headers */,
+				4ACF83AB1BFCC81A0048947C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = AZLabelSpacing;
+			productName = AZLabelSpacing;
+			productReference = 4ACF83AD1BFCC81A0048947C /* AZLabelSpacing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92224E2B1BFCBB81009A7CBE /* LabelSpacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92224E431BFCBB81009A7CBE /* Build configuration list for PBXNativeTarget "LabelSpacing" */;
+			buildPhases = (
+				92224E281BFCBB81009A7CBE /* Sources */,
+				92224E291BFCBB81009A7CBE /* Frameworks */,
+				92224E2A1BFCBB81009A7CBE /* Resources */,
+				4ACF83B91BFCC81B0048947C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACF83B31BFCC81A0048947C /* PBXTargetDependency */,
+			);
 			name = LabelSpacing;
 			productName = LabelSpacing;
-			productReference = 92224E2C1BFCBB81009A7CBE;
+			productReference = 92224E2C1BFCBB81009A7CBE /* LabelSpacing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		92224E241BFCBB81009A7CBE = {
+		92224E241BFCBB81009A7CBE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Alex Zimin";
 				TargetAttributes = {
+					4ACF83AC1BFCC81A0048947C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
 					92224E2B1BFCBB81009A7CBE = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 92224E271BFCBB81009A7CBE;
+			buildConfigurationList = 92224E271BFCBB81009A7CBE /* Build configuration list for PBXProject "LabelSpacing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -243,59 +229,82 @@
 				Base,
 			);
 			mainGroup = 92224E231BFCBB81009A7CBE;
-			productRefGroup = 92224E2D1BFCBB81009A7CBE;
+			productRefGroup = 92224E2D1BFCBB81009A7CBE /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
-				92224E2B1BFCBB81009A7CBE,
+				92224E2B1BFCBB81009A7CBE /* LabelSpacing */,
+				4ACF83AC1BFCC81A0048947C /* AZLabelSpacing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		92224E2A1BFCBB81009A7CBE = {
+		4ACF83AB1BFCC81A0048947C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92224E3F1BFCBB81009A7CBE,
-				92224E3C1BFCBB81009A7CBE,
-				92224E3A1BFCBB81009A7CBE,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92224E2A1BFCBB81009A7CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92224E3F1BFCBB81009A7CBE /* LaunchScreen.storyboard in Resources */,
+				92224E3C1BFCBB81009A7CBE /* Assets.xcassets in Resources */,
+				92224E3A1BFCBB81009A7CBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		92224E281BFCBB81009A7CBE = {
+		4ACF83A81BFCC81A0048947C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92224E4E1BFCBF85009A7CBE,
-				92224E481BFCBBFB009A7CBE,
-				92224E371BFCBB81009A7CBE,
-				92224E341BFCBB81009A7CBE,
-				92224E311BFCBB81009A7CBE,
+				4ACF83BD1BFCC8420048947C /* AZMethodSwizzle.m in Sources */,
+				4ACF83BC1BFCC8300048947C /* UILabel+AZCharacterSpacing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92224E281BFCBB81009A7CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92224E4E1BFCBF85009A7CBE /* AZMethodSwizzle.m in Sources */,
+				92224E481BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m in Sources */,
+				92224E371BFCBB81009A7CBE /* ViewController.m in Sources */,
+				92224E341BFCBB81009A7CBE /* AppDelegate.m in Sources */,
+				92224E311BFCBB81009A7CBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4ACF83B31BFCC81A0048947C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ACF83AC1BFCC81A0048947C /* AZLabelSpacing */;
+			targetProxy = 4ACF83B21BFCC81A0048947C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		92224E381BFCBB81009A7CBE = {
+		92224E381BFCBB81009A7CBE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92224E391BFCBB81009A7CBE,
+				92224E391BFCBB81009A7CBE /* Base */,
 			);
 			name = Main.storyboard;
 			path = .;
 			sourceTree = "<group>";
 		};
-		92224E3D1BFCBB81009A7CBE = {
+		92224E3D1BFCBB81009A7CBE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92224E3E1BFCBB81009A7CBE,
+				92224E3E1BFCBB81009A7CBE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			path = .;
@@ -304,7 +313,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		92224E411BFCBB81009A7CBE = {
+		4ACF83B61BFCC81B0048947C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AZLabelSpacing/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azimin.AZLabelSpacing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4ACF83B71BFCC81B0048947C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AZLabelSpacing/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azimin.AZLabelSpacing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92224E411BFCBB81009A7CBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		92224E421BFCBB81009A7CBE = {
+		92224E421BFCBB81009A7CBE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -384,7 +433,7 @@
 			};
 			name = Release;
 		};
-		92224E441BFCBB81009A7CBE = {
+		92224E441BFCBB81009A7CBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -395,7 +444,7 @@
 			};
 			name = Debug;
 		};
-		92224E451BFCBB81009A7CBE = {
+		92224E451BFCBB81009A7CBE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -409,24 +458,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92224E271BFCBB81009A7CBE = {
+		4ACF83B81BFCC81B0048947C /* Build configuration list for PBXNativeTarget "AZLabelSpacing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92224E411BFCBB81009A7CBE,
-				92224E421BFCBB81009A7CBE,
+				4ACF83B61BFCC81B0048947C /* Debug */,
+				4ACF83B71BFCC81B0048947C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92224E271BFCBB81009A7CBE /* Build configuration list for PBXProject "LabelSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92224E411BFCBB81009A7CBE /* Debug */,
+				92224E421BFCBB81009A7CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92224E431BFCBB81009A7CBE = {
+		92224E431BFCBB81009A7CBE /* Build configuration list for PBXNativeTarget "LabelSpacing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92224E441BFCBB81009A7CBE,
-				92224E451BFCBB81009A7CBE,
+				92224E441BFCBB81009A7CBE /* Debug */,
+				92224E451BFCBB81009A7CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 92224E241BFCBB81009A7CBE;
+	rootObject = 92224E241BFCBB81009A7CBE /* Project object */;
 }
