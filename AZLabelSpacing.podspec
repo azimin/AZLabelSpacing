@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.source   = {
     :git => 'https://github.com/azimin/AZLabelCharecterSpacing.git',
     :branch => 'master',
-    :tag => '1.0'
-#:tag => s.version
+    :tag => s.version.to_s
   }
   s.source_files  = 'LabelSpacing/*.{h,m}'
   s.requires_arc = true
