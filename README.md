@@ -1,2 +1,2 @@
 # AZLabelCharecterSpacing
-Easy change character spacing in UILabe
+Easy change character spacing in `UILabel`
