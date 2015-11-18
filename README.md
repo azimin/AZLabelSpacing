@@ -7,4 +7,4 @@ For example in Storyboard it will be:
 
 Result will be:
 
-![alt tag](img_app_example.png)
+<img src="img_app_example.png" width="280">
