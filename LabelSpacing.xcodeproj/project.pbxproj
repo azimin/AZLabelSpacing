@@ -7,35 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92224E311BFCBB81009A7CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E301BFCBB81009A7CBE /* main.m */; };
-		92224E341BFCBB81009A7CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E331BFCBB81009A7CBE /* AppDelegate.m */; };
-		92224E371BFCBB81009A7CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E361BFCBB81009A7CBE /* ViewController.m */; };
-		92224E3A1BFCBB81009A7CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92224E381BFCBB81009A7CBE /* Main.storyboard */; };
-		92224E3C1BFCBB81009A7CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92224E3B1BFCBB81009A7CBE /* Assets.xcassets */; };
-		92224E3F1BFCBB81009A7CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92224E3D1BFCBB81009A7CBE /* LaunchScreen.storyboard */; };
-		92224E481BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */; };
-		92224E4E1BFCBF85009A7CBE /* AZMethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */; };
+		92224E311BFCBB81009A7CBE = {
+			isa = PBXBuildFile;
+			fileRef = 92224E301BFCBB81009A7CBE;
+		};
+		92224E341BFCBB81009A7CBE = {
+			isa = PBXBuildFile;
+			fileRef = 92224E331BFCBB81009A7CBE;
+		};
+		92224E371BFCBB81009A7CBE = {
+			isa = PBXBuildFile;
+			fileRef = 92224E361BFCBB81009A7CBE;
+		};
+		92224E3A1BFCBB81009A7CBE = {
+			isa = PBXBuildFile;
+			fileRef = 92224E381BFCBB81009A7CBE;
+		};
+		92224E3C1BFCBB81009A7CBE = {
+			isa = PBXBuildFile;
+			fileRef = 92224E3B1BFCBB81009A7CBE;
+		};
+		92224E3F1BFCBB81009A7CBE = {
+			isa = PBXBuildFile;
+			fileRef = 92224E3D1BFCBB81009A7CBE;
+		};
+		92224E481BFCBBFB009A7CBE = {
+			isa = PBXBuildFile;
+			fileRef = 92224E471BFCBBFB009A7CBE;
+		};
+		92224E4E1BFCBF85009A7CBE = {
+			isa = PBXBuildFile;
+			fileRef = 92224E4D1BFCBF85009A7CBE;
+		};
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92224E2C1BFCBB81009A7CBE /* LabelSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelSpacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92224E301BFCBB81009A7CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92224E321BFCBB81009A7CBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		92224E331BFCBB81009A7CBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92224E351BFCBB81009A7CBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		92224E361BFCBB81009A7CBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		92224E391BFCBB81009A7CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92224E3B1BFCBB81009A7CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92224E3E1BFCBB81009A7CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92224E401BFCBB81009A7CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92224E461BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AZCharacterSpacing.h"; sourceTree = "<group>"; };
-		92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AZCharacterSpacing.m"; sourceTree = "<group>"; };
-		92224E4C1BFCBF85009A7CBE /* AZMethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZMethodSwizzle.h; sourceTree = "<group>"; };
-		92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZMethodSwizzle.m; sourceTree = "<group>"; };
+		92224E2C1BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = LabelSpacing.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92224E301BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = main.m;
+			sourceTree = "<group>";
+		};
+		92224E321BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AppDelegate.h;
+			sourceTree = "<group>";
+		};
+		92224E331BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = AppDelegate.m;
+			sourceTree = "<group>";
+		};
+		92224E351BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = ViewController.h;
+			sourceTree = "<group>";
+		};
+		92224E361BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = ViewController.m;
+			sourceTree = "<group>";
+		};
+		92224E391BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.storyboard;
+			name = Base;
+			path = Base.lproj/Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92224E3B1BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		92224E3E1BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.storyboard;
+			name = Base;
+			path = Base.lproj/LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92224E401BFCBB81009A7CBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		92224E461BFCBBFB009A7CBE = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.h;
+			path = "UILabel+AZCharacterSpacing.h";
+			sourceTree = "<group>";
+		};
+		92224E471BFCBBFB009A7CBE = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "UILabel+AZCharacterSpacing.m";
+			sourceTree = "<group>";
+		};
+		92224E4C1BFCBF85009A7CBE = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.h;
+			path = AZMethodSwizzle.h;
+			sourceTree = "<group>";
+		};
+		92224E4D1BFCBF85009A7CBE = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.objc;
+			path = AZMethodSwizzle.m;
+			sourceTree = "<group>";
+		};
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		92224E291BFCBB81009A7CBE /* Frameworks */ = {
+		92224E291BFCBB81009A7CBE = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,65 +149,67 @@
 		92224E231BFCBB81009A7CBE = {
 			isa = PBXGroup;
 			children = (
-				92224E2E1BFCBB81009A7CBE /* LabelSpacing */,
-				92224E2D1BFCBB81009A7CBE /* Products */,
+				92224E2E1BFCBB81009A7CBE,
+				92224E2D1BFCBB81009A7CBE,
 			);
 			sourceTree = "<group>";
 		};
-		92224E2D1BFCBB81009A7CBE /* Products */ = {
+		92224E2D1BFCBB81009A7CBE = {
 			isa = PBXGroup;
 			children = (
-				92224E2C1BFCBB81009A7CBE /* LabelSpacing.app */,
+				92224E2C1BFCBB81009A7CBE,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92224E2E1BFCBB81009A7CBE /* LabelSpacing */ = {
+		92224E2E1BFCBB81009A7CBE = {
 			isa = PBXGroup;
 			children = (
-				92224E381BFCBB81009A7CBE /* Main.storyboard */,
-				92224E461BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.h */,
-				92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */,
-				92224E4C1BFCBF85009A7CBE /* AZMethodSwizzle.h */,
-				92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */,
-				92224E4F1BFCC106009A7CBE /* Unnecessary */,
-				92224E2F1BFCBB81009A7CBE /* Supporting Files */,
+				92224E2F1BFCBB81009A7CBE,
+				92224E4F1BFCC106009A7CBE,
+				92224E4C1BFCBF85009A7CBE,
+				92224E4D1BFCBF85009A7CBE,
+				92224E381BFCBB81009A7CBE,
+				92224E461BFCBBFB009A7CBE,
+				92224E471BFCBBFB009A7CBE,
 			);
 			path = LabelSpacing;
 			sourceTree = "<group>";
 		};
-		92224E2F1BFCBB81009A7CBE /* Supporting Files */ = {
+		92224E2F1BFCBB81009A7CBE = {
 			isa = PBXGroup;
 			children = (
-				92224E301BFCBB81009A7CBE /* main.m */,
+				92224E301BFCBB81009A7CBE,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		92224E4F1BFCC106009A7CBE /* Unnecessary */ = {
+		92224E4F1BFCC106009A7CBE = {
 			isa = PBXGroup;
 			children = (
-				92224E351BFCBB81009A7CBE /* ViewController.h */,
-				92224E361BFCBB81009A7CBE /* ViewController.m */,
-				92224E321BFCBB81009A7CBE /* AppDelegate.h */,
-				92224E331BFCBB81009A7CBE /* AppDelegate.m */,
-				92224E3B1BFCBB81009A7CBE /* Assets.xcassets */,
-				92224E3D1BFCBB81009A7CBE /* LaunchScreen.storyboard */,
-				92224E401BFCBB81009A7CBE /* Info.plist */,
+				92224E321BFCBB81009A7CBE,
+				92224E331BFCBB81009A7CBE,
+				92224E3B1BFCBB81009A7CBE,
+				92224E401BFCBB81009A7CBE,
+				92224E3D1BFCBB81009A7CBE,
+				92224E351BFCBB81009A7CBE,
+				92224E361BFCBB81009A7CBE,
 			);
 			name = Unnecessary;
+			path = Unnecessary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92224E2B1BFCBB81009A7CBE /* LabelSpacing */ = {
+		92224E2B1BFCBB81009A7CBE = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92224E431BFCBB81009A7CBE /* Build configuration list for PBXNativeTarget "LabelSpacing" */;
+			buildConfigurationList = 92224E431BFCBB81009A7CBE;
 			buildPhases = (
-				92224E281BFCBB81009A7CBE /* Sources */,
-				92224E291BFCBB81009A7CBE /* Frameworks */,
-				92224E2A1BFCBB81009A7CBE /* Resources */,
+				92224E281BFCBB81009A7CBE,
+				92224E291BFCBB81009A7CBE,
+				92224E2A1BFCBB81009A7CBE,
 			);
 			buildRules = (
 			);
@@ -114,13 +217,13 @@
 			);
 			name = LabelSpacing;
 			productName = LabelSpacing;
-			productReference = 92224E2C1BFCBB81009A7CBE /* LabelSpacing.app */;
+			productReference = 92224E2C1BFCBB81009A7CBE;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		92224E241BFCBB81009A7CBE /* Project object */ = {
+		92224E241BFCBB81009A7CBE = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
@@ -131,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92224E271BFCBB81009A7CBE /* Build configuration list for PBXProject "LabelSpacing" */;
+			buildConfigurationList = 92224E271BFCBB81009A7CBE;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -140,64 +243,68 @@
 				Base,
 			);
 			mainGroup = 92224E231BFCBB81009A7CBE;
-			productRefGroup = 92224E2D1BFCBB81009A7CBE /* Products */;
+			productRefGroup = 92224E2D1BFCBB81009A7CBE;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
-				92224E2B1BFCBB81009A7CBE /* LabelSpacing */,
+				92224E2B1BFCBB81009A7CBE,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		92224E2A1BFCBB81009A7CBE /* Resources */ = {
+		92224E2A1BFCBB81009A7CBE = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92224E3F1BFCBB81009A7CBE /* LaunchScreen.storyboard in Resources */,
-				92224E3C1BFCBB81009A7CBE /* Assets.xcassets in Resources */,
-				92224E3A1BFCBB81009A7CBE /* Main.storyboard in Resources */,
+				92224E3F1BFCBB81009A7CBE,
+				92224E3C1BFCBB81009A7CBE,
+				92224E3A1BFCBB81009A7CBE,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		92224E281BFCBB81009A7CBE /* Sources */ = {
+		92224E281BFCBB81009A7CBE = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92224E4E1BFCBF85009A7CBE /* AZMethodSwizzle.m in Sources */,
-				92224E481BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m in Sources */,
-				92224E371BFCBB81009A7CBE /* ViewController.m in Sources */,
-				92224E341BFCBB81009A7CBE /* AppDelegate.m in Sources */,
-				92224E311BFCBB81009A7CBE /* main.m in Sources */,
+				92224E4E1BFCBF85009A7CBE,
+				92224E481BFCBBFB009A7CBE,
+				92224E371BFCBB81009A7CBE,
+				92224E341BFCBB81009A7CBE,
+				92224E311BFCBB81009A7CBE,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92224E381BFCBB81009A7CBE /* Main.storyboard */ = {
+		92224E381BFCBB81009A7CBE = {
 			isa = PBXVariantGroup;
 			children = (
-				92224E391BFCBB81009A7CBE /* Base */,
+				92224E391BFCBB81009A7CBE,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
-		92224E3D1BFCBB81009A7CBE /* LaunchScreen.storyboard */ = {
+		92224E3D1BFCBB81009A7CBE = {
 			isa = PBXVariantGroup;
 			children = (
-				92224E3E1BFCBB81009A7CBE /* Base */,
+				92224E3E1BFCBB81009A7CBE,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		92224E411BFCBB81009A7CBE /* Debug */ = {
+		92224E411BFCBB81009A7CBE = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +347,7 @@
 			};
 			name = Debug;
 		};
-		92224E421BFCBB81009A7CBE /* Release */ = {
+		92224E421BFCBB81009A7CBE = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,22 +384,22 @@
 			};
 			name = Release;
 		};
-		92224E441BFCBB81009A7CBE /* Debug */ = {
+		92224E441BFCBB81009A7CBE = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LabelSpacing/Info.plist;
+				INFOPLIST_FILE = LabelSpacing/Unnecessary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.LabelSpacing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		92224E451BFCBB81009A7CBE /* Release */ = {
+		92224E451BFCBB81009A7CBE = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LabelSpacing/Info.plist;
+				INFOPLIST_FILE = LabelSpacing/Unnecessary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.LabelSpacing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,24 +409,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92224E271BFCBB81009A7CBE /* Build configuration list for PBXProject "LabelSpacing" */ = {
+		92224E271BFCBB81009A7CBE = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92224E411BFCBB81009A7CBE /* Debug */,
-				92224E421BFCBB81009A7CBE /* Release */,
+				92224E411BFCBB81009A7CBE,
+				92224E421BFCBB81009A7CBE,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92224E431BFCBB81009A7CBE /* Build configuration list for PBXNativeTarget "LabelSpacing" */ = {
+		92224E431BFCBB81009A7CBE = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92224E441BFCBB81009A7CBE /* Debug */,
-				92224E451BFCBB81009A7CBE /* Release */,
+				92224E441BFCBB81009A7CBE,
+				92224E451BFCBB81009A7CBE,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 92224E241BFCBB81009A7CBE /* Project object */;
+	rootObject = 92224E241BFCBB81009A7CBE;
 }
