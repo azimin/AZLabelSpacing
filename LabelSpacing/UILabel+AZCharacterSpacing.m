@@ -33,8 +33,10 @@
   [self _characterSpacingSetText:text];
   
   if (self.characterSpacing != 0) {
-    NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:text attributes:
-                                            @{NSKernAttributeName : @(self.characterSpacing)}];
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:text attributes:nil];
+    
+    // Inicialize AttributedString with NSKernAttributeName will break label aligment
+    [attributedString addAttribute:NSKernAttributeName value:@(self.characterSpacing) range:NSMakeRange(0, [text length] - 1)];
     self.attributedText = attributedString;
   }
 }
