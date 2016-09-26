@@ -8,7 +8,7 @@
 
 #import "UILabel+AZSpacing.h"
 #import "AZMethodSwizzle.h"
-#import <objc/runtime.h> 
+#import <objc/runtime.h>
 
 @implementation UILabel (AZSpacing)
 
@@ -26,13 +26,16 @@
   [self spacingAwakeFromNib];
   
   // For text loaded from IB
-  [self setText:self.text];
+  if (self.characterSpacing != 0 || self.az_LineSpacing != 0) {
+    [self setText:self.text];
+  }
 }
 
 - (void)_spacingSetText:(NSString*)text {
+  text = text ?: @"";
   [self _spacingSetText:text];
   
-  if (self.characterSpacing != 0 && self.lineSpacing != 0) {
+  if (self.characterSpacing != 0 || self.az_LineSpacing != 0) {
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:text attributes:nil];
     
     
@@ -43,9 +46,11 @@
                                range:NSMakeRange(0, attributedString.length)];
     }
     
-    if (self.lineSpacing != 0) {
+    if (self.az_LineSpacing != 0) {
       NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
-      [style setLineSpacing:self.lineSpacing];
+      [style setLineSpacing:self.az_LineSpacing];
+      [style setLineBreakMode:self.lineBreakMode];
+      [style setAlignment:self.textAlignment];
       [attributedString addAttribute:NSParagraphStyleAttributeName
                                value:style
                                range:NSMakeRange(0, attributedString.length)];
@@ -72,14 +77,14 @@
 #endif
 }
 
-- (void)setLineSpacing:(CGFloat)lineSpacing
+- (void)setAz_LineSpacing:(CGFloat)az_LineSpacing
 {
-  objc_setAssociatedObject(self, @selector(lineSpacing), @(lineSpacing), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+  objc_setAssociatedObject(self, @selector(az_LineSpacing), @(az_LineSpacing), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (CGFloat)lineSpacing
+- (CGFloat)az_LineSpacing
 {
-  NSNumber *number = (NSNumber*)objc_getAssociatedObject(self, @selector(lineSpacing));
+  NSNumber *number = (NSNumber*)objc_getAssociatedObject(self, @selector(az_LineSpacing));
 #if CGFLOAT_IS_DOUBLE
   return [number doubleValue];
 #else

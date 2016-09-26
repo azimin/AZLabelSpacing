@@ -11,6 +11,6 @@
 @interface UILabel (AZSpacing)
 
 @property (nonatomic, assign) IBInspectable CGFloat characterSpacing;
-@property (nonatomic, assign) IBInspectable CGFloat lineSpacing;
+@property (nonatomic, assign) IBInspectable CGFloat az_LineSpacing;
 
 @end
