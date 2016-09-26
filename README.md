@@ -1,4 +1,4 @@
-# AZLabelCharecterSpacing
+# AZLabelSpacing
 Easy change character spacing in `UILabel`
 
 ## Installation
@@ -9,7 +9,7 @@ Easy change character spacing in `UILabel`
 ```
 - or add the following to your [`Cartfile`](https://github.com/Carthage/Carthage) and run `carthage update`
 ```
-    github "azimin/AZLabelCharecterSpacing"
+    github "azimin/AZLabelSpacing"
 ```
 - or clone as a git submodule,
 
