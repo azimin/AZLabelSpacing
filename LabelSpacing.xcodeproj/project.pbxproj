@@ -11,8 +11,8 @@
 		4ACF83B41BFCC81A0048947C /* AZLabelSpacing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF83AD1BFCC81A0048947C /* AZLabelSpacing.framework */; };
 		4ACF83B51BFCC81A0048947C /* AZLabelSpacing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF83AD1BFCC81A0048947C /* AZLabelSpacing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4ACF83BA1BFCC8260048947C /* AZMethodSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 92224E4C1BFCBF85009A7CBE /* AZMethodSwizzle.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4ACF83BB1BFCC8290048947C /* UILabel+AZCharacterSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 92224E461BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ACF83BC1BFCC8300048947C /* UILabel+AZCharacterSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */; };
+		4ACF83BB1BFCC8290048947C /* UILabel+AZSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 92224E461BFCBBFB009A7CBE /* UILabel+AZSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ACF83BC1BFCC8300048947C /* UILabel+AZSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E471BFCBBFB009A7CBE /* UILabel+AZSpacing.m */; };
 		4ACF83BD1BFCC8420048947C /* AZMethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */; };
 		92224E311BFCBB81009A7CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E301BFCBB81009A7CBE /* main.m */; };
 		92224E341BFCBB81009A7CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E331BFCBB81009A7CBE /* AppDelegate.m */; };
@@ -20,7 +20,7 @@
 		92224E3A1BFCBB81009A7CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92224E381BFCBB81009A7CBE /* Main.storyboard */; };
 		92224E3C1BFCBB81009A7CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92224E3B1BFCBB81009A7CBE /* Assets.xcassets */; };
 		92224E3F1BFCBB81009A7CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92224E3D1BFCBB81009A7CBE /* LaunchScreen.storyboard */; };
-		92224E481BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */; };
+		92224E481BFCBBFB009A7CBE /* UILabel+AZSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E471BFCBBFB009A7CBE /* UILabel+AZSpacing.m */; };
 		92224E4E1BFCBF85009A7CBE /* AZMethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +62,8 @@
 		92224E3B1BFCBB81009A7CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92224E3E1BFCBB81009A7CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92224E401BFCBB81009A7CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92224E461BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AZCharacterSpacing.h"; sourceTree = "<group>"; };
-		92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AZCharacterSpacing.m"; sourceTree = "<group>"; };
+		92224E461BFCBBFB009A7CBE /* UILabel+AZSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AZSpacing.h"; sourceTree = "<group>"; };
+		92224E471BFCBBFB009A7CBE /* UILabel+AZSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AZSpacing.m"; sourceTree = "<group>"; };
 		92224E4C1BFCBF85009A7CBE /* AZMethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZMethodSwizzle.h; sourceTree = "<group>"; };
 		92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZMethodSwizzle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,8 +122,8 @@
 				92224E4C1BFCBF85009A7CBE /* AZMethodSwizzle.h */,
 				92224E4D1BFCBF85009A7CBE /* AZMethodSwizzle.m */,
 				92224E381BFCBB81009A7CBE /* Main.storyboard */,
-				92224E461BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.h */,
-				92224E471BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m */,
+				92224E461BFCBBFB009A7CBE /* UILabel+AZSpacing.h */,
+				92224E471BFCBBFB009A7CBE /* UILabel+AZSpacing.m */,
 			);
 			path = LabelSpacing;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ACF83BB1BFCC8290048947C /* UILabel+AZCharacterSpacing.h in Headers */,
+				4ACF83BB1BFCC8290048947C /* UILabel+AZSpacing.h in Headers */,
 				4ACF83B01BFCC81A0048947C /* AZLabelSpacing.h in Headers */,
 				4ACF83BA1BFCC8260048947C /* AZMethodSwizzle.h in Headers */,
 			);
@@ -265,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ACF83BD1BFCC8420048947C /* AZMethodSwizzle.m in Sources */,
-				4ACF83BC1BFCC8300048947C /* UILabel+AZCharacterSpacing.m in Sources */,
+				4ACF83BC1BFCC8300048947C /* UILabel+AZSpacing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92224E4E1BFCBF85009A7CBE /* AZMethodSwizzle.m in Sources */,
-				92224E481BFCBBFB009A7CBE /* UILabel+AZCharacterSpacing.m in Sources */,
+				92224E481BFCBBFB009A7CBE /* UILabel+AZSpacing.m in Sources */,
 				92224E371BFCBB81009A7CBE /* ViewController.m in Sources */,
 				92224E341BFCBB81009A7CBE /* AppDelegate.m in Sources */,
 				92224E311BFCBB81009A7CBE /* main.m in Sources */,

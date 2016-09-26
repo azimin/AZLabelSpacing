@@ -1,5 +1,5 @@
 //
-//  UILabel+AZCharacterSpacing.h
+//  UILabel+AZSpacing.h
 //  LabelSpacing
 //
 //  Created by Alex Zimin on 18/11/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UILabel (AZCharacterSpacing)
+@interface UILabel (AZSpacing)
 
 @property (nonatomic, assign) IBInspectable CGFloat characterSpacing;
+@property (nonatomic, assign) IBInspectable CGFloat lineSpacing;
 
 @end
